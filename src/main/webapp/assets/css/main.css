@@ -1,0 +1,49 @@
+body {
+    background: linear-gradient(30deg, #91f08e, #b3fdda, #afe9f4, #d0ffcc);
+    background-size: 1500% 1500%;
+    animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+header {
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    color: rgb(40, 58, 91);
+    color: #004383;
+    font-family: "Marker Felt", fantasy;
+    font-size: 20px;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+
+.navigate {
+    display: flex;
+    justify-content: left;
+    margin-top: 3%;
+
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
